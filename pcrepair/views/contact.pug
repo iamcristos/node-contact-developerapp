@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+    form(method='post',action='/contact/send')
+        .form-group
+          label Name
+          input#exampleInputEmail1.form-control(type='text', name='name', aria-describedby='emailHelp', placeholder='Enter Name')
+        .form-group
+          label Email
+          input#exampleInputPassword1.form-control(type='email', name='email', placeholder='email')
+          small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+        .form-group.form-check
+          textarea(name="message", cols="30", rows="10")
+          label.form-check-label(for='exampleCheck1') Message
+        button.btn.btn-primary(type='submit') Submit
+
+

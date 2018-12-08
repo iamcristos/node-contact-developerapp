@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Nmeregini Vincent",
+        "description": "A confident young web developer with great passion and integrity also a team player",
+        "price": "$100-$200" 
+    },
+
+    {
+        "name":"Femi",
+        "description": "A charming young web front end developer with great passion and integrity also a team player",
+        "price": "$100-$200" 
+    },
+
+    {
+        "name":"Binta",
+        "description": "A vibrant female front end web developer with great passion and integrity also a team player",
+        "price": "$100-$200" 
+    }
+]
